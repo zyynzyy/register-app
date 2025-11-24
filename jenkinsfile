@@ -12,7 +12,7 @@ pipeline {
     }
       stage("Checkout from SCM"){
               steps {
-              git branch: 'main', credentialsId: 'jenkins', url:'https://github.com/zyynzyy/cicd-tesis'
+              git branch: 'main', credentialsId: 'jenkins', url:'https://github.com/zyynzyy/register-app'
               }
       }
       stage("Build Application"){
